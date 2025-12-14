@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: powderblue;
+  display: flex;
+  justify-content: center;     
+  align-items: center;         
+  font-family: 'Times New Roman', Times, serif
+}
+
+.loginfoam {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2) ;
+  width: 300px;
+  text-align: center;
+}
+
+.loginfoam h2 {
+  margin-bottom: 30px;
+  color: black;
+  font-size: 24px;
+}
+
+.loginfoam label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+  color: #555;
+  font-weight: bold;
+}
+
+.loginfoam input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+ .loginfoam input:focus {
+  border-color: #3b4be3;
+  box-shadow: 0 0 5px rgba(249, 253, 249, 0.934); 
+ } 
+
+.loginfoam button {
+  width: 100%;
+  padding: 12px;
+  background-color: #192ecf;
+  color: rgba(247, 242, 242);
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.loginfoam button:hover {
+  background-color: #5767f3;
+}
+
